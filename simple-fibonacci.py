@@ -1,9 +1,9 @@
-number = input("Enter a number: ")
+n = input("Enter a number: ")
 print("Number to calculate is " + number)
-print(type(number))
+print(type(n))
 
 #conversion to float
-n = float(number)
+n = float(n)
 
 
 #fibonacci calculation
@@ -15,3 +15,4 @@ def fibonacci(n):
 
 #convert back to a string.
 output = str(n)
+print("n = " + n)
